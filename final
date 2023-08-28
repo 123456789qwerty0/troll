@@ -1,0 +1,19 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Darkhub Troll gui", HidePremium = false, SaveConfig = true, ConfigFolder = "MeLoveBalls"})
+local Tab = Window:MakeTab({
+	Name = "FE (NOT CONVERTED)",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Fe spam sounds gui by susmic123_real (got banned)",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/123456789qwerty0/troll/main/fe%20spam')))()
+  	end    
+})
+Tab:AddButton({
+	Name = ""c00lkid GUI,
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/123456789qwerty0/troll/main/c00lkid%20%3A)')))()
+  	end    
+})
